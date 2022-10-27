@@ -237,16 +237,17 @@ header h2{
 
 .h-image {
 	margin: 2rem auto;
-	padding: 0 20%;
+	padding: 0 2rem;
+	max-width: 80%;
 }
 
 .h-image .story{
-	max-width: 700px;
-	margin: 2rem 3%;
+	max-width: 90%;
+	margin: 2rem auto;
 }
 
 .h-image .story img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 
@@ -275,54 +276,6 @@ header h2{
 }
 
 /* =================== NETWORK SECURITY ================= */
-.container main{
-	max-width: 80%;
-	margin-inline: auto;
-}
-
-.network-sec h2{
-	font-size: 2.5rem;
-	font-weight: 700;
-	padding: 2rem auto;
-	margin-top: 4rem;
-	margin-bottom: 2rem;
-	text-transform: capitalize;
-	word-spacing: 4px;
-	text-align: center;
-}
-
-.network-sec p{
-	font-size: 1.1rem;
-	text-align: center;
-	text-justify: auto;
-	font-weight: 400;
-	word-spacing: 2.2px;
-	line-height: 2.2rem;
-	margin: 2rem auto;
-}
-.network-sec video{
-	float: right;
-}
-
-.network-sec h4{
-	margin-top: 4.3rem;
-	margin-bottom: 1.5rem;
-	font-size: 1rem;
-	
-}
-
-.network-sec ul li{
-	padding: 10px; 
-	font-size: 0.9rem;
-	
-}
-
-
-
-
-
-
-
 
 
 /*============== Media Queries ==========*/
