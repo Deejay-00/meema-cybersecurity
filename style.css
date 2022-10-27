@@ -59,8 +59,8 @@ nav {
 nav ul li{
 	width: 120px;
 	height: 30px;
-	line-height: 30px;
-	font-size: 0.7rem;
+	line-height: 25px;
+	font-size: 0.8rem;
 	text-align: center;
 	float: left;
 	position: relative;
@@ -108,12 +108,12 @@ nav ul ul ul{
 	color: var(--main-color);
 	font-size: 0.8rem;
 	font-weight: 500;
-	padding: 0px 10px;
-	margin: 0 10px;
+	padding: 0 5px;
+	/* margin: 0 10px; */
 	transition: all 0.5s ease;
 }
 
-.navbar a:hover {
+.navbar .top:hover {
 	color: var(--text-color);
 	color: #e2e4ec;
 }
@@ -275,7 +275,65 @@ header h2{
 	/* padding: 1rem 0; */
 }
 
-/* =================== NETWORK SECURITY ================= */
+/* =================== CONTACT US SECTION ================= */
+.contact-section {
+	padding: 40px 0;
+	background: #ecf0f1;
+	max-width: 50%;
+	margin-inline: auto;
+	border: 1px solid #7f8c8d;
+}
+.contact-section h1{
+	text-align: center;
+	color: #2c3e50;
+}
+.contact-section p{
+	text-align: center;
+	padding: 15px 0;
+}
+.border{
+	width: 100px;
+	height: 7px;
+	background: #2c3e50;
+	margin: 20px auto;
+}
+ .contact-form{
+	 max-width: 600px;
+	 margin: auto;
+	 padding: 0 10px;
+	 overflow: hidden;
+}
+ .contact-form-text{
+	display: block;
+	width: 90%;
+	box-sizing: border-box;
+	margin: 16px auto;
+	border: none;
+	background: #ffffff; 
+	padding: 15px 30px;
+	outline: none;
+	color: #2f3542;
+	transition: 0.5s;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 100px;
+}
+.contact-form-btn{
+	float: right;
+	margin-right: 30px;
+	border: 0;
+	background: var(--text-color);
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact-form-btn:hover{
+	background: #bdc3c7;
+	color: #333
+}
 
 
 /*============== Media Queries ==========*/
