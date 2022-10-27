@@ -60,12 +60,11 @@ nav ul li{
 	width: 120px;
 	height: 30px;
 	line-height: 30px;
-	font-size: 13px;
+	font-size: 0.7rem;
 	text-align: center;
 	float: left;
 	position: relative;
 	/* transition: all 0.5s ease; */
-
 }
 
 nav ul li:hover{
@@ -105,11 +104,11 @@ nav ul ul ul{
 	display: flex;
 }
 
-.navbar a {
+.navbar .top{
 	color: var(--main-color);
-	font-size: 1.1rem;
+	font-size: 0.8rem;
 	font-weight: 500;
-	padding: 5px 10px;
+	padding: 0px 10px;
 	margin: 0 10px;
 	transition: all 0.5s ease;
 }
@@ -117,13 +116,8 @@ nav ul ul ul{
 .navbar a:hover {
 	color: var(--text-color);
 	color: #e2e4ec;
-	/* border-bottom: 2px solid var(--text-color); */
-	/* transition: .5s ease-in-out; */
 }
 
-/* .navbar a.active {
-	color: var(--text-color);
-} */
 
 .lang-menu {
 	display: flex;
@@ -222,6 +216,115 @@ nav ul ul ul{
 	font-weight: 300;
 }
 
+/* ============= History Page =============*/
+header h2{
+	font-size: 2.3rem;
+	margin: 2rem auto;
+	padding: 10px 30%;
+	font-weight: 800;
+}
+
+
+
+.video{
+	margin: 2rem 30%;
+}
+.video p{
+	font-size: 1.5rem;
+	padding: 3px 0;
+	font-weight: 700;
+}
+
+.h-image {
+	margin: 2rem auto;
+	padding: 0 20%;
+}
+
+.h-image .story{
+	max-width: 700px;
+	margin: 2rem 3%;
+}
+
+.h-image .story img {
+	max-width: 100%;
+	height: auto;
+}
+
+.h-image .story h3{
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 1.5rem 0;
+}
+
+.h-image .story p{
+	font-size: 1.2rem;
+	font-weight: 400;
+	word-spacing: 2.5px;
+	line-height: 3rem;
+	text-justify: justify;
+	padding: 1rem 0;
+}
+.h-image .story ul{
+	font-size: 1rem;
+	font-weight: 400;
+	word-spacing: 2.2px;
+	line-height: 2.2rem;
+	text-justify: justify;
+	margin-bottom: 2rem;
+	/* padding: 1rem 0; */
+}
+
+/* =================== NETWORK SECURITY ================= */
+.container main{
+	max-width: 80%;
+	margin-inline: auto;
+}
+
+.network-sec h2{
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding: 2rem auto;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	text-transform: capitalize;
+	word-spacing: 4px;
+	text-align: center;
+}
+
+.network-sec p{
+	font-size: 1.1rem;
+	text-align: center;
+	text-justify: auto;
+	font-weight: 400;
+	word-spacing: 2.2px;
+	line-height: 2.2rem;
+	margin: 2rem auto;
+}
+.network-sec video{
+	float: right;
+}
+
+.network-sec h4{
+	margin-top: 4.3rem;
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
+	
+}
+
+.network-sec ul li{
+	padding: 10px; 
+	font-size: 0.9rem;
+	
+}
+
+
+
+
+
+
+
+
+
 /*============== Media Queries ==========*/
 @media (max-width: 1280px) {
 	header {
@@ -284,5 +387,17 @@ nav ul ul ul{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	.video{
+		margin: 2rem 0;
+		max-width: 400px;
+		height: auto;
+	}
+	.h-image{
+		margin: 2rem 0;
+	}
+	.h-image .story{
+		max-width: 500px;
+		margin: 2rem 0%;
 	}
 }
