@@ -126,15 +126,34 @@
             <h1>Contact Us</h1>
             <div class="border"></div>
             <p>Send us a message and we will respond within 24hours</p>
-            <form class="contact-form" action="Contact us.html" method="post">
+            <form class="contact-form">
                 <input type="text" class="contact-form-text" placeholder="Full name">
                 <input type="email" class="contact-form-text" placeholder="email@mail.com">
                 <input type="text" class="contact-form-text" placeholder="Phone number">
                 <textarea class="contact-form-text" placeholder="Your message"></textarea>
-                <input type="submit" class="contact-form-btn" value="send">
+                <button  class="contact-form-btn"  id="send-btn">send</button>
             </form>
         </div>
     </div>
+
+    <div class="popup center">
+        <div class="icon">
+                <i class="ri-check-line"></i>
+        </div>
+        <div class="title">
+            Request Submitted.
+            <br> Thank you!
+        </div>
+        <div class="dismiss-btn">
+            <button id="dismiss-pop-up-btn">
+                Dismiss
+            </button>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Link -->
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
