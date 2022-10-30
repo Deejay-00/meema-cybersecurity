@@ -3,6 +3,9 @@ let navbar = document.querySelector(".navbar");
 
 // let index = 0;
 let images = document.querySelectorAll(".image-s");
+let sendBtn = document.getElementById("send-btn");
+let dismissBtn = document.getElementById("dismiss-pop-up-btn");
+
 
 menu.onclick = () => {
 	menu.classList.toggle("bx-x");
@@ -34,11 +37,11 @@ window.onload = changeImg();
 
 
 // 	THANK YOU POP UP
-document.getElementById("send-btn").addEventListener("click",function(){
+sendBtn.addEventListener("click", function(){
 	document.getElementsByClassName("popup")
-	[0].classList.add("active")	
+	.classList.style.display = "block";
 });
 
 document.getElementById("dismiss-btn").addEventListener("click", function(){
-	document.getElementsByClassName("popup")[0].classList.remove("active")	
+	document.getElementsByClassName("popup")[0].classList.remove("active").style.display = "none";	
 });
