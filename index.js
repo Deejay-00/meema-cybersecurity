@@ -36,12 +36,20 @@ window.onload = changeImg();
 
 
 
-// 	THANK YOU POP UP
+// 	THANK YOU-POP UP
 sendBtn.addEventListener("click", function(){
-	document.getElementsByClassName("popup")
-	.classList.style.display = "block";
+	document.querySelector(".popup").style.display = "block";
 });
 
-document.getElementById("dismiss-btn").addEventListener("click", function(){
-	document.getElementsByClassName("popup")[0].classList.remove("active").style.display = "none";	
+dismissBtn.addEventListener("click", function(){
+	document.querySelector(".popup").style.display = "none";
 });
+
+// window.onload = document.querySelector(".popup").style.display = "none";
+
+
+
+
+// document.getElementById("dismiss-btn").addEventListener("click", function(){
+// 	document.getElementsByClassName("popup")[0].classList.remove("active").style.display = "none";	
+// });
