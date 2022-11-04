@@ -205,7 +205,7 @@ nav ul ul ul{
 	font-size: 1.3rem;
 	padding: 10px;
 	margin-right: 15px;
-	border: none;
+	border: 1px solid var(--text-color);
 	background-color: var(--color);
 	color: var(--main-color);
 	border-radius: 5px;
@@ -408,7 +408,7 @@ textarea.contact-form-text{
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(66, 141, 17, 0.2);
     transition: 0.3s;
-    border-radius: 5px;
+	border-radius: 5px;
 }
 
 .protect-card:hover {
@@ -459,6 +459,60 @@ textarea.contact-form-text{
 	  text-justify: auto;
   } 
 
+/* ================== SOFTWARE SECTION ================ */
+.software-content{
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	width: 100%;
+	/* flex-wrap: wrap; */
+}
+.software-content .software-details{
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: 400px 1fr;
+	gap: 2rem;
+	align-items: center;
+	max-width: 75rem;
+	margin: 0 auto;
+}
+.software-content .software-details img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.software-content .software-details .wares-content h3{
+	color: var(--text-color);
+	font-size: 2rem;
+	margin-bottom: 20px;
+	font-weight: 800;
+	text-transform: capitalize;
+}
+.software-content .software-details .wares-content p{
+	font-size: 1rem; 
+	text-justify: auto;
+	letter-spacing: 1.5px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+.software-content .software-details .wares-content a{
+	border: none;
+	padding: 10px 20px;
+	background-color: var(--text-color);
+	color: var(--color);
+	font-weight: bold;
+	border-radius: 5px;
+	float: right;
+}
+.software-content .software-details .wares-content a:hover{
+	color: var(--text-color);
+	background-color: var(--color);
+	transition: .3s;
+	border: 1px solid var(--text-color);
+}
 
 
 
